@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sample-rejection",
+    "date": "2026-11-08",
+    "subject": "Thank you for your interest in Example Systems",
+    "body": "Job number: 991230045. We decided not to move forward after reviewing this example application.",
+    "url": "https://example.com/messages/sample-rejection",
+    "body_complete": true
+  },
+  {
+    "id": "sample-existing-rejection",
+    "date": "2026-09-24",
+    "subject": "Example Robotics application: Status update",
+    "body": "Software Development Engineer, Edge AI (ID: 99124001). We have decided not to progress with your application for this role.",
+    "body_complete": true
+  },
+  {
+    "id": "sample-application",
+    "date": "2026-10-20",
+    "subject": "Successfully submitted application",
+    "body": "We have received your application for position ID: 9912501.",
+    "body_complete": true
+  }
+]

@@ -1,0 +1,123 @@
+{
+  "mode": "DRY_RUN",
+  "since": "2026-09-01",
+  "jobs_count": 4,
+  "emails_count": 3,
+  "unique_in_scope": 3,
+  "events": [
+    {
+      "message_id": "sample-existing-rejection",
+      "job_id": "99124001",
+      "company": "Example Robotics",
+      "record_url": null,
+      "event": "rejected",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "99124001"
+      ],
+      "match": "exact_id",
+      "action": "no_change",
+      "current": {
+        "status": "Rejected",
+        "closed_date": ""
+      },
+      "proposed": null,
+      "reason": "現況不需自動提出變更",
+      "subject": "Example Robotics application: Status update",
+      "evidence_url": "",
+      "body_complete": true,
+      "source_date": "2026-09-24",
+      "evidence_sha256": "51e4591cc10928f45eed7d670d55386387927931ed582fee21dbb82b7cb8d443"
+    },
+    {
+      "message_id": "sample-application",
+      "job_id": "9912501",
+      "company": "Example Silicon",
+      "record_url": null,
+      "event": "application_confirmed",
+      "date": "2026-10-20",
+      "candidate_ids": [
+        "9912501"
+      ],
+      "match": "exact_id",
+      "action": "no_change",
+      "current": {
+        "status": "已投遞",
+        "closed_date": ""
+      },
+      "proposed": null,
+      "reason": "現況不需自動提出變更",
+      "subject": "Successfully submitted application",
+      "evidence_url": "",
+      "body_complete": true,
+      "source_date": "2026-10-20",
+      "evidence_sha256": "f58c3bff1d44014b2630c28c1c44d649569a1227612867f682c6eca36a80981d"
+    },
+    {
+      "message_id": "sample-rejection",
+      "job_id": "991230045",
+      "company": "Example Systems",
+      "record_url": null,
+      "event": "rejected",
+      "date": "2026-11-08",
+      "candidate_ids": [
+        "991230045"
+      ],
+      "match": "exact_id",
+      "action": "propose_update",
+      "current": {
+        "status": "已投遞",
+        "closed_date": ""
+      },
+      "proposed": {
+        "status": "Rejected",
+        "closed_date": "2026-11-08"
+      },
+      "reason": "完整正文顯示拒絕，需人工核准",
+      "subject": "Thank you for your interest in Example Systems",
+      "evidence_url": "https://example.com/messages/sample-rejection",
+      "body_complete": true,
+      "source_date": "2026-11-08",
+      "evidence_sha256": "bb4cc8f294a92552020ffa96ffbf81f73594a11ed79a1c92acec4e2cb5ff2e0a"
+    }
+  ],
+  "summary": {
+    "propose_update": 1,
+    "manual_review": 0,
+    "no_change": 2,
+    "ignore": 0
+  },
+  "review": [
+    {
+      "fingerprint": "c8973311cf9c11cd31d8857ace5140acb51012dbcd1206142c08768ae6b5c24c",
+      "decision": "pending",
+      "event": {
+        "message_id": "sample-rejection",
+        "job_id": "991230045",
+        "company": "Example Systems",
+        "record_url": null,
+        "event": "rejected",
+        "date": "2026-11-08",
+        "candidate_ids": [
+          "991230045"
+        ],
+        "match": "exact_id",
+        "action": "propose_update",
+        "current": {
+          "status": "已投遞",
+          "closed_date": ""
+        },
+        "proposed": {
+          "status": "Rejected",
+          "closed_date": "2026-11-08"
+        },
+        "reason": "完整正文顯示拒絕，需人工核准",
+        "subject": "Thank you for your interest in Example Systems",
+        "evidence_url": "https://example.com/messages/sample-rejection",
+        "body_complete": true,
+        "source_date": "2026-11-08",
+        "evidence_sha256": "bb4cc8f294a92552020ffa96ffbf81f73594a11ed79a1c92acec4e2cb5ff2e0a"
+      }
+    }
+  ]
+}

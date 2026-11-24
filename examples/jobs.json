@@ -1,0 +1,6 @@
+[
+  {"company":"Example Systems","job_id":"991230045","title":"Software Engineer 2","status":"已投遞"},
+  {"company":"Example Robotics","job_id":"99124001","title":"Edge AI","status":"Rejected"},
+  {"company":"Example Robotics","job_id":"99124002","title":"Edge AI","status":"Rejected"},
+  {"company":"Example Silicon","job_id":"9912501","title":"Runtime / On-Device AI","status":"已投遞"}
+]

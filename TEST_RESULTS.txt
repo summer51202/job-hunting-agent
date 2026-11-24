@@ -1,0 +1,22 @@
+test_browser_fill_upload_and_stop (test_acceptance.AcceptanceTests.test_browser_fill_upload_and_stop) ... ok
+test_historical_conflict_and_terminal_states (test_acceptance.AcceptanceTests.test_historical_conflict_and_terminal_states) ... ok
+test_platform_allowlist_and_static_form (test_acceptance.AcceptanceTests.test_platform_allowlist_and_static_form) ... ok
+test_quotes_and_unknown_completeness_do_not_propose (test_acceptance.AcceptanceTests.test_quotes_and_unknown_completeness_do_not_propose) ... ok
+test_ranking_and_document_pairs (test_acceptance.AcceptanceTests.test_ranking_and_document_pairs) ... ok
+test_response_lost_after_update_can_be_retried (test_acceptance.AcceptanceTests.test_response_lost_after_update_can_be_retried) ... ok
+test_review_uses_current_record_and_is_idempotent (test_acceptance.AcceptanceTests.test_review_uses_current_record_and_is_idempotent) ... ok
+test_alias (test_adapters.TestAdapters.test_alias) ... ok
+test_connector_rows (test_adapters.TestAdapters.test_connector_rows) ... ok
+test_full_body_rejection (test_adapters.TestAdapters.test_full_body_rejection) ... ok
+test_gmail_connector (test_adapters.TestAdapters.test_gmail_connector) ... ok
+test_quoted_text (test_adapters.TestAdapters.test_quoted_text) ... ok
+test_snippet_not_authoritative (test_adapters.TestAdapters.test_snippet_not_authoritative) ... ok
+test_exact_id_isolation (test_core.TestReconciliation.test_exact_id_isolation) ... ok
+test_html (test_core.TestReconciliation.test_html) ... ok
+test_rejection_priority (test_core.TestReconciliation.test_rejection_priority) ... ok
+test_unknown_not_auto_create (test_core.TestReconciliation.test_unknown_not_auto_create) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 6.924s
+
+OK
